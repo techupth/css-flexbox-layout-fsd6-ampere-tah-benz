@@ -1,1 +1,64 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: cadetblue;
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optional {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  padding: 3px;
+}
+
+.navigation {
+  flex-basis: 25%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  flex-basis: 50%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertisement {
+  flex-basis: 25%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: khaki;
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+}
