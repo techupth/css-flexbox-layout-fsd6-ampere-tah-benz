@@ -1,1 +1,78 @@
-/* Start coding here */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Kodchasan", sans-serif;
+}
+
+.wrapper {
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  width: 15%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.description {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.behavior {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.price {
+  font-size: 4rem;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: yellow;
+  border-color: yellow;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.behavior p {
+  text-align: center;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.192);
+}
